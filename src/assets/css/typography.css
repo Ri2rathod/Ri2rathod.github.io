@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Flat&family=Roboto&display=swap');
+
+
+:root{
+    --color-primary:#064420;
+    --color-secoundary:#E4EFE7;
+    --color-black:#000;
+    --color-white:#fff;
+
+
+    --global-font:'Roboto', sans-serif;
+    --heading-font:'Nova Flat', cursive;
+}
+
+body{
+    font-family: var(--heading-font);
+}
+h1,h2,h3,h4,h5,h6,p{
+    font-family: var(--global-font);
+}   
