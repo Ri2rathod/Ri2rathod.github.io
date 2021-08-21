@@ -1,25 +1,34 @@
 // import {  } from 'bootstrap';
 import React from 'react'
 import logo from '../assets/images/logo.png';
-import {  Container, Nav ,Navbar ,Button} from 'react-bootstrap';
+import {  Container, Nav ,Navbar } from 'react-bootstrap';
 function header() {
     return (
-        <header>
-               <Navbar bg="light" expand="lg">
+               <Navbar bg="white" expand="lg" fixed="top" className="shadow"> 
                     <Container >
-                        <Navbar.Brand href="#home"> <img src={logo} alt="logo" /> </Navbar.Brand>
+                        <Navbar.Brand href="./index" className=""> <img src={logo} alt="logo" className="img-fluid logo_img"/> </Navbar.Brand>
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
                         <Navbar.Collapse id="basic-navbar-nav " className=" flex-grow-0">
                         <Nav className="mr-auto ">
-                            <Nav.Link href="#home" className="mx-md-4 mx-2 text-primary">Home</Nav.Link>
-                            <Nav.Link href="#link" className="mx-md-4 mx-2 text-primary">Link</Nav.Link>
-                            <Nav.Link href="#link" className="mx-md-4 mx-2 text-primary">About Us</Nav.Link>
-                            <Button className="mx-md-4 mx-2"> Work</Button>
+                            <Nav.Link href="./index" className="mx-md-3 mx-2 text-primary">
+                                <h5>Home</h5>
+                                </Nav.Link>
+                            <Nav.Link href="./Services" className="mx-md-3 mx-2 text-primary">
+                                 <h5> Services </h5> </Nav.Link>
+                            <Nav.Link href="#link" className="mx-md-3 mx-2 text-primary">
+                                 <h5>About Us</h5> 
+                            </Nav.Link>
+                            <Nav.Link href="#link" className="mx-md-3 mx-2 text-primary"> 
+                                <h5>About Us</h5> 
+                            </Nav.Link>
+                            <Nav.Link href="#link" className="mx-md-3 mx-2 text-primary bg-secondary rounded btn px-3">
+                                 <h5>Work</h5>
+                             </Nav.Link>
+                      
                         </Nav>
                         </Navbar.Collapse>
                     </Container>
                     </Navbar>
-        </header>
     )
 }
 

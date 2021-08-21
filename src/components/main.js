@@ -1,11 +1,12 @@
-import React from 'react'
+import React from 'react';
+import Home_1_Banner from './home_1_banner';
+import Home_1_Myself from './home_1_myself';
 
-function main() {
+export default function main() {
     return (
-        <main>
-            
+        <main className="main">
+           <Home_1_Banner />
+           <Home_1_Myself />
         </main>
     )
 }
-
-export default main
