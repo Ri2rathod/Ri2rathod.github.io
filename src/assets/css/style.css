@@ -25,9 +25,42 @@ main section{
     padding-top: var(--section-padding-top);
     padding-bottom: var(--section-padding-top) ;
     height: var(--section-height);
+    /* padding-left: 16px;
+    padding-right: 16px; */
+}
+.heading_before_style{
+    color: var(--color-white) ;   
+}
+.heading_before_style::before{
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    display: inline-block;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    z-index: -1;
+    background-color: var(--color-primary);
 }
 
+.desc_title,.desc{
+    margin-bottom: 32px;
+}
 
+.social-media-icon{
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+.social-media-icon>li{
+    margin-right: 12px;
+}
+.social-media-icon svg:hover >path{
+    fill:var(--color-primary);
+    
+}
 @keyframes img-roated {
     to{
         transform: rotate(0deg);
