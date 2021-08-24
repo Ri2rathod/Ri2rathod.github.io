@@ -20,7 +20,6 @@
 .icon-btn{
     bottom: 50%;
 }
-
 main section{
     padding-top: var(--section-padding-top);
     padding-bottom: var(--section-padding-top) ;
@@ -61,6 +60,11 @@ main section{
     fill:var(--color-primary);
     
 }
+.navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+}
+
 @keyframes img-roated {
     to{
         transform: rotate(0deg);
