@@ -1,33 +1,34 @@
-// import {  } from 'bootstrap';
 import React from 'react'
 import Hamburger from './hamburger';
 import logo from '../assets/images/logo.png';
 import {  Container, Nav ,Navbar } from 'react-bootstrap';
+import { NavLink } from 'react-router-dom';
 function header() {
     return (
                <Navbar bg="white" expand="lg" fixed="top" className="shadow"> 
                     <Container >
-                        <Navbar.Brand href="./index" className=""> <img src={logo} alt="logo" className="img-fluid logo_img"/> </Navbar.Brand>
+                        <Navbar.Brand to="./index" className=""> <img src={logo} alt="logo" className="img-fluid logo_img"/> </Navbar.Brand>
                         <Navbar.Toggle aria-controls="basic-navbar-nav" className="border-0">
                             <Hamburger />
-
                         </Navbar.Toggle>
                         <Navbar.Collapse id="basic-navbar-nav " className=" flex-grow-0">
                         <Nav className="mr-auto ">
-                            <Nav.Link href="./index" className="mx-md-3 mx-2 text-primary">
-                                <h5>Home</h5>
-                                </Nav.Link>
-                            <Nav.Link href="./Services" className="mx-md-3 mx-2 text-primary">
-                                 <h5> Services </h5> </Nav.Link>
-                            <Nav.Link href="#link" className="mx-md-3 mx-2 text-primary">
-                                 <h5>About Us</h5> 
-                            </Nav.Link>
-                            <Nav.Link href="#link" className="mx-md-3 mx-2 text-primary"> 
-                                <h5>Blogs</h5> 
-                            </Nav.Link>
-                            <Nav.Link href="#link" className="mx-md-3 mx-2 text-primary bg-secondary rounded btn px-3">
-                                 <h5>Work</h5>
-                             </Nav.Link>
+                            
+                            <NavLink exact  to="./" activeClassName="active" className="mx-md-3 nav-link mx-2 text-primary">
+                                <span>Home</span>
+                            </NavLink>
+                            <NavLink exact to="./Services" activeClassName="active"  className="mx-md-3 nav-link mx-2 text-primary">
+                                <span> Services </span>
+                            </NavLink>
+                            <NavLink exact to="./About_Us" activeClassName="active"  className="mx-md-3 nav-link mx-2 text-primary">
+                                <span>About Us</span> 
+                            </NavLink>
+                            <NavLink exact to="./Blogs" activeClassName="active"  className="mx-md-3 nav-link mx-2 text-primary"> 
+                                <span>Blogs</span> 
+                            </NavLink>
+                            <NavLink exact to="./Works" activeClassName="active"  className="mx-md-3 nav-link mx-2 text-primary bg-secondary rounded btn px-3">
+                                <span>Work</span>
+                            </NavLink>
                       
                         </Nav>
                         </Navbar.Collapse>

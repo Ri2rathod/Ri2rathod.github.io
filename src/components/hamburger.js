@@ -1,5 +1,5 @@
 import React from 'react'
-import './../assets/css/hamburger.css';
+import './../assets/css/vendor/hamburger.min.css';
 import './../assets/js/hamburger';
 export default function hamburger() {
     return (
