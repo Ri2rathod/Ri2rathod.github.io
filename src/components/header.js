@@ -26,7 +26,7 @@ function header() {
                             <NavLink exact to="./Blogs" activeClassName="active"  className="mx-md-3 nav-link mx-2 text-primary"> 
                                 <span>Blogs</span> 
                             </NavLink>
-                            <NavLink exact to="./Works" activeClassName="active"  className="mx-md-3 nav-link mx-2 text-primary bg-secondary rounded btn px-3">
+                            <NavLink exact to="./Works" activeClassName="active"  className="mx-md-3 nav-btn nav-link mx-2 text-primary bg-secondary rounded btn px-3">
                                 <span>Work</span>
                             </NavLink>
                       
