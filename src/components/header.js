@@ -1,6 +1,6 @@
 import React from 'react'
 import Hamburger from './hamburger';
-import logo from '../assets/images/logo.png';
+import logo from '../assets/images/svg/logo.svg';
 import {  Container, Nav ,Navbar } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 function header() {
@@ -29,7 +29,6 @@ function header() {
                             <NavLink exact to="./Works" activeClassName="active"  className="mx-md-3 nav-btn nav-link mx-2 text-primary bg-secondary rounded btn px-3">
                                 <span>Work</span>
                             </NavLink>
-                      
                         </Nav>
                         </Navbar.Collapse>
                     </Container>

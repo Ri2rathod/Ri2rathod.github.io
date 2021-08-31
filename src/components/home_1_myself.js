@@ -3,7 +3,7 @@ import { Container } from 'react-bootstrap';
 import TitleComp from './title_comp';
 import Heading from './heading';
 import Desc from './desc';
-import Social from './social';
+import {Social , Social_footer} from './social';
 
 export default function home_1_myself() {
     return (
@@ -13,6 +13,7 @@ export default function home_1_myself() {
                 <Heading text="Hi, Nice To meet You." />
                 <Desc/>
                 <Social />
+                <Social_footer />
 
             </Container>
         </section>

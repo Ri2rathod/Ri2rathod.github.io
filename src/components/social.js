@@ -1,8 +1,12 @@
-import React from 'react'
+import React ,{Component}from 'react'
 
-function social() {
-    return (
-        <div>
+
+import PropTypes from 'prop-types'
+
+ export  class Social extends Component {
+    render() {
+        return (
+            <div>
             <h4 className="mb-3">Follow Me On</h4>
             <ul className="social-media-icon">
                 <li>
@@ -39,8 +43,19 @@ function social() {
                 </li>
             </ul>
         </div>
-    )
+        )
+    }
 }
 
-<h4>Follow Me On</h4>
-export default social
+//  social
+
+export class Social_footer extends Component {
+
+    render() {
+        return (
+            <div>
+                sample
+            </div>
+        )
+    }
+}
