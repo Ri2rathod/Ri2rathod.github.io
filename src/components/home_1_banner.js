@@ -5,9 +5,11 @@ import banner from '../assets/images/—Pngtree—mandala design outline happy d
 import svg from '../assets/images/svg/Group 3.svg';
 
 export default function home_1_banner() {
+
+    var style={"background-color":"var(--bg-primary)"}
     return (
 
-             <section className=" position-relative banner-section overflow-hidden" >
+             <section className=" position-relative banner-section overflow-hidden" style={style}>
                 <Container >
                     <div>
                         <h1 className="text-center col-md-8 mx-auto pt-5">I'M Ritesh Rathod Junior Full Stack Developer</h1>

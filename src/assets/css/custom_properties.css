@@ -1,9 +1,11 @@
 :root{
-    --color-primary:#064420;
+    --color-primary:#EFF2C0;
     --color-secoundary:#E4EFE7;
     --color-black:#000;
     --color-white:#fff;
 
+    --bg-primary:#080F0F;
+    --bg-secoundary:rgba(8, 15, 15, 99%);
 
     --global-font:'Roboto', sans-serif;
     --heading-font:'Nova Flat', cursive;

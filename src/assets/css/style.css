@@ -14,7 +14,7 @@
 }
 .img-pattern>img{
     animation: img-roated 20s linear infinite ;
-    filter: opacity(40%);
+    filter: contrast(50%);
 }
 
 .icon-btn{
@@ -28,7 +28,7 @@ main section{
     padding-right: 16px; */
 }
 .heading_before_style{
-    color: var(--color-white) ;   
+    color: var(--bg-primary) ;   
 }
 .heading_before_style::before{
     content: "";
@@ -41,7 +41,7 @@ main section{
     height: 100px;
     width: 100px;
     z-index: -1;
-    background-color: var(--color-primary);
+    background-color: var(--color-secoundary);
 }
 
 .desc_title,.desc{

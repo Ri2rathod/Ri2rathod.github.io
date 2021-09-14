@@ -5,7 +5,7 @@ import {  Container, Nav ,Navbar } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 function header() {
     return (
-               <Navbar bg="white" expand="lg" fixed="top" className="shadow"> 
+               <Navbar bg="dark" expand="lg" fixed="top" className=""> 
                     <Container >
                         <Navbar.Brand to="./index" className=""> <img src={logo} alt="logo" className="img-fluid logo_img"/> </Navbar.Brand>
                         <Navbar.Toggle aria-controls="basic-navbar-nav" className="border-0">
@@ -26,7 +26,7 @@ function header() {
                             <NavLink exact to="./Blogs" activeClassName="active"  className="mx-md-3 nav-link mx-2 text-primary"> 
                                 <span>Blogs</span> 
                             </NavLink>
-                            <NavLink exact to="./Works" activeClassName="active"  className="mx-md-3 nav-btn nav-link mx-2 text-primary bg-secondary rounded btn px-3">
+                            <NavLink exact to="./Works" activeClassName="active"  className="mx-md-3 nav-btn nav-link mx-2 text-primary bg-danger rounded btn px-3">
                                 <span>Work</span>
                             </NavLink>
                         </Nav>
