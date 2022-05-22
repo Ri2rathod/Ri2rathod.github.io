@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/static/css/main.82bd2b81.chunk.css",
-    "main.js": "/static/js/main.d093efe7.chunk.js",
-    "main.js.map": "/static/js/main.d093efe7.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.06ad8305.js",
-    "runtime-main.js.map": "/static/js/runtime-main.06ad8305.js.map",
-    "static/css/2.da1eef19.chunk.css": "/static/css/2.da1eef19.chunk.css",
-    "static/js/2.4e8bb03a.chunk.js": "/static/js/2.4e8bb03a.chunk.js",
-    "static/js/2.4e8bb03a.chunk.js.map": "/static/js/2.4e8bb03a.chunk.js.map",
-    "static/js/3.45bfb707.chunk.js": "/static/js/3.45bfb707.chunk.js",
-    "static/js/3.45bfb707.chunk.js.map": "/static/js/3.45bfb707.chunk.js.map",
+    "main.css": "/static/css/main.44d9dc5b.chunk.css",
+    "main.js": "/static/js/main.0670d5fe.chunk.js",
+    "main.js.map": "/static/js/main.0670d5fe.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.4a1cc7df.js",
+    "runtime-main.js.map": "/static/js/runtime-main.4a1cc7df.js.map",
+    "static/css/2.13489985.chunk.css": "/static/css/2.13489985.chunk.css",
+    "static/js/2.1c40eb65.chunk.js": "/static/js/2.1c40eb65.chunk.js",
+    "static/js/2.1c40eb65.chunk.js.map": "/static/js/2.1c40eb65.chunk.js.map",
+    "static/js/3.49241967.chunk.js": "/static/js/3.49241967.chunk.js",
+    "static/js/3.49241967.chunk.js.map": "/static/js/3.49241967.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/2.da1eef19.chunk.css.map": "/static/css/2.da1eef19.chunk.css.map",
-    "static/css/main.82bd2b81.chunk.css.map": "/static/css/main.82bd2b81.chunk.css.map",
-    "static/js/2.4e8bb03a.chunk.js.LICENSE.txt": "/static/js/2.4e8bb03a.chunk.js.LICENSE.txt",
-    "static/media/Group 3.d0290cc8.svg": "/static/media/Group 3.d0290cc8.svg",
+    "static/css/2.13489985.chunk.css.map": "/static/css/2.13489985.chunk.css.map",
+    "static/css/main.44d9dc5b.chunk.css.map": "/static/css/main.44d9dc5b.chunk.css.map",
+    "static/js/2.1c40eb65.chunk.js.LICENSE.txt": "/static/js/2.1c40eb65.chunk.js.LICENSE.txt",
+    "static/media/dev-slider-img-3.98e5e90c.jpg": "/static/media/dev-slider-img-3.98e5e90c.jpg",
     "static/media/logo-white.eb859233.svg": "/static/media/logo-white.eb859233.svg",
     "static/media/logo.9edd491c.svg": "/static/media/logo.9edd491c.svg",
     "static/media/pattern.50105120.svg": "/static/media/pattern.50105120.svg",
-    "static/media/—Pngtree—mandala design outline happy diwali_5162587.c480b19b.png": "/static/media/—Pngtree—mandala design outline happy diwali_5162587.c480b19b.png"
+    "static/media/pexels-pixabay-270348.b26906aa.jpg": "/static/media/pexels-pixabay-270348.b26906aa.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.06ad8305.js",
-    "static/css/2.da1eef19.chunk.css",
-    "static/js/2.4e8bb03a.chunk.js",
-    "static/css/main.82bd2b81.chunk.css",
-    "static/js/main.d093efe7.chunk.js"
+    "static/js/runtime-main.4a1cc7df.js",
+    "static/css/2.13489985.chunk.css",
+    "static/js/2.1c40eb65.chunk.js",
+    "static/css/main.44d9dc5b.chunk.css",
+    "static/js/main.0670d5fe.chunk.js"
   ]
 }
